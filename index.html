@@ -1,8 +1,7 @@
 <html>
 
 <head>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -11,7 +10,7 @@
         <div class="row no-gutter">
             <div style="width: 70vw;">
                 <div style="height: 70vh; width: calc(70vw - 30px); padding-right: 15px; padding-left: 15px" id="game"
-                    class="">
+                    class="grid">
                     <!-- Game goes here -->
                 </div>
                 <div class="height: 30vh;">
@@ -27,8 +26,10 @@
                 <textarea class="code-editor"></textarea>
                 <div style="margin-top: 15px; margin-right: 15px">
                     <button type="button" class="btn btn-primary btn-lg btn-block run">Run This Code!</button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#lesson-modal">Review Lesson</button>
-                    <button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#hint-modal">Get A Hint!</button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal"
+                        data-target="#lesson-modal">Review Lesson</button>
+                    <button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal"
+                        data-target="#hint-modal">Get A Hint!</button>
                 </div>
             </div>
         </div>
@@ -43,7 +44,7 @@
                     </button>
                 </div>
                 <div class="modal-body bind-content">
-                    
+
                 </div>
             </div>
         </div>
@@ -58,11 +59,14 @@
                     </button>
                 </div>
                 <div class="modal-body bind-hint">
-                    
+
                 </div>
             </div>
         </div>
     </div>
+    <script src="http://localhost:8080/jquery_3_4_1.js"></script>
+    <script src="http://localhost:8080/bootstrap_4_3_1.js"></script>
+
 <script type="text/javascript" src="bundle.min.js"></script></body>
 
 </html>
